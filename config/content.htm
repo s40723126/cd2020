@@ -13,7 +13,8 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h1>Week 1</h1>
+<h1>Week</h1>
+<h2>Week 1</h2>
 <p>創建cd2020的倉儲</p>
 <p>創倉儲</p>
 <p>步驟:</p>
@@ -23,7 +24,7 @@
 <p>4.將cmsimde--&gt;up_dir中的所有東西複製到外面的cd2020裡</p>
 <p>5.之後cd cmsimde 輸入python -m pip install flask_cors更改模組</p>
 <p>6.執行python wsgi.py進入靜態網頁</p>
-<h1>Week 2</h1>
+<h2>Week 2</h2>
 <p>將python從3.7.3版本更新到3.8.2</p>
 <p>從<a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a>這個網站中下載</p>
 <p>windows x86-64 executable installer安裝至自己的可攜中<img alt="" height="698" src="/images/52.png" width="1241"/></p>
@@ -114,3 +115,39 @@
 <p>•“生存”的定義（測試後功能或外觀的程度）</p>
 <p>Quality Control/Quality Assurance This organization determines whether the acceptability limits of the individual parts (or entire assemblies) meet the standards both specified in the individual product specification (the drawing) and in the established overall corporate standards. Quality control would be concerned with tactical situations, while (corporate) quality assurance would be more concerned with strategic situations. Most companies have various ways of both controlling and monitoring the quality of the product and certainly get involved with customer satisfaction and service issues.</p>
 <p>質量控制/質量保證該組織確定單個零件（或整個組件）的可接受極限是否滿足單個產品規格（圖紙）和已建立的總體公司標準中指定的標準。 質量控制將與戰術情況有關，而（公司）質量保證將與戰略情況有關。 大多數公司都有控制和監視產品質量的各種方法，並且肯定會涉及客戶滿意度和服務問題。</p>
+<p>The EPE Designer intersects with this organization by specifying on their documentation the acceptability limits of each part and can go all up to include assemblies. Typically, acceptability limits take the form of:</p>
+<p>EPE設計人員通過在其文檔中指定每個零件的可接受性限制來與該組織相交，並且可以一併包括裝配。 通常，可接受性限制採取以下形式：</p>
+<p>• Size (geometry) control as specified in drawing tolerances</p>
+<p>•圖紙公差中指定的尺寸（幾何）控件</p>
+<p>• Material and plating specifications stated on drawing</p>
+<p>•圖紙上註明的材料和鍍層規格</p>
+<p>• Cosmetic flaw rejection criteria stated on drawing</p>
+<p>•圖紙上規定的外觀缺陷排除標準</p>
+<p>• Functional specification as stated on drawing</p>
+<p>•功能規格如圖紙所示</p>
+<p>• Determining the “critical” nature of some aspect of the part documentation.</p>
+<p>•確定零件文檔某些方面的“關鍵”性質。</p>
+<p>Service This organization is responsible for the repairing, warranty, and return of product functions. They help determine course of action for field problems with the equipment.</p>
+<p>服務該組織負責產品功能的維修，保修和退貨。 它們有助於確定設備現場問題的解決方案。</p>
+<p>The EPE Designer intersects with this organization by designing-in a reasonable process for the disassembly and repair of the product. Of course, a design with a designed-in high reliability will have less reason to repair. It’s also possible to provide for methodology to determine misuse of the product.</p>
+<p>EPE設計人員通過設計合理的過程來拆卸和維修產品，從而與此組織相交。 當然，設計可靠的設計將減少維修的理由。 還可以提供確定產品濫用的方法。</p>
+<p>Project Management This organization is responsible for tracking the project for:</p>
+<p>項目管理該組織負責跟踪以下項目：</p>
+<p>• Time allocation – meeting deadlines that are committed</p>
+<p>•時間分配-遵守約定的最後期限</p>
+<p>• Resource allocation</p>
+<p>• 資源分配</p>
+<p>• Priority management (for a single project and relative to projects competing for the same resources)</p>
+<p>•優先級管理（針對單個項目以及相對於爭奪相同資源的項目）</p>
+<p>• Compliance to specifications for the product</p>
+<p>•符合產品規格</p>
+<p>• Meeting cost goals</p>
+<p>•實現成本目標</p>
+<p>• Reporting status of project</p>
+<p>•項目報告情況</p>
+<p>The EPE Designer intersects with this organization by reporting estimates of time and resources for all separate line items of the mechanical part responsibility. This starts with product conceptualization, design, prototyping, and testing and continues on into final release documentation. Estimates of time and resources are updated as milestones are met.</p>
+<p>EPE設計人員通過報告機械零件責任的所有單獨行項目的時間和資源估算與該組織相交。 這從產品概念化，設計，原型設計和測試開始，一直到最終版本文檔。 隨著里程碑的實現，時間和資源的估計也會更新。</p>
+<p>Upper Management Included in this group is anyone who is responsible for the project and has a need to understand the project. Project updates would be provided to this group at specific times during the project. Upper management would provide leadership and vision to the project.</p>
+<p>高層管理人員包括負責該項目並需要了解該項目的任何人。 項目更新將在項目期間的特定時間提供給該小組。 高層管理人員將為項目提供領導力和遠見。</p>
+<p>The EPE Designer intersects with upper management in an indirect manner. Reporting of project status is relevant at any time and is usually provided thru the project manager.</p>
+<p>EPE設計器以間接方式與高層管理人員相交。 項目狀態的報告在任何時候都是相關的，通常是通過項目經理提供的。</p>
