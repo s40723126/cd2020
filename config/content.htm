@@ -65,8 +65,10 @@
 <p><img alt="" height="483" src="/images/2020-04-29 (5).png" width="570"/></p>
 <h2>Week7</h2>
 <h2>Week8</h2>
-<p>準備期中考</p><h2>Week9</h2>
-<p>使用google meeting進行期中報告</p><h2>Week10</h2>
+<p>準備期中考</p>
+<h2>Week9</h2>
+<p>使用google meeting進行期中報告</p>
+<h2>Week10</h2>
 <h2>Week11</h2>
 <p>用Onshape繪製輪框</p>
 <p>網址:<a href="https://cad.onshape.com/documents/ad12c3f2d195fcb853e024ef/w/feb2971ffd74f2fb21b3551c/e/4f4758f0b1b2b6db33b725a1">https://cad.onshape.com/documents/ad12c3f2d195fcb853e024ef/w/feb2971ffd74f2fb21b3551c/e/4f4758f0b1b2b6db33b725a1</a></p>
@@ -82,7 +84,8 @@
 <p>網址:</p>
 <p><a href="https://cad.onshape.com/documents/631340e74e6be09636ce6638/w/5de772e304b3a44bb6babf30/e/d32210c491a00ef63329a42a">https://cad.onshape.com/documents/631340e74e6be09636ce6638/w/5de772e304b3a44bb6babf30/e/d32210c491a00ef63329a42a</a></p>
 <p><img alt="" height="634" src="/images/0.png" width="701"/></p>
-<p><img alt="" height="630" src="/images/222.png" width="652"/></p><h1>小組會議</h1>
+<p><img alt="" height="630" src="/images/222.png" width="652"/></p>
+<h1>小組會議</h1>
 <p>Week3</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/c06esX1zO90" width="560"></iframe></p>
 <p>Week4</p>
@@ -188,3 +191,147 @@
 <p>高層管理人員包括負責該項目並需要了解該項目的任何人。 項目更新將在項目期間的特定時間提供給該小組。 高層管理人員將為項目提供領導力和遠見。</p>
 <p>The EPE Designer intersects with upper management in an indirect manner. Reporting of project status is relevant at any time and is usually provided thru the project manager.</p>
 <p>EPE設計器以間接方式與高層管理人員相交。 項目狀態的報告在任何時候都是相關的，通常是通過項目經理提供的。</p>
+<h1>VirtualBox</h1>
+<h4>(IPv6) Setting VirtualBox Network</h4>
+<p>1.</p>
+<p>設定調成NAT Network</p>
+<p><img alt="" height="335" src="https://s40723111.github.io/cd2020/images/1.png" width="500"/></p>
+<p>2.</p>
+<p>打這個指令尋找IPv6網路(找不到的話繼續下面的步驟)</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_808012">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">ifconfig</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/2.png" width="500"/></p>
+<p>3.</p>
+<p>安裝網路工具，密碼為kmol2020</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_552624">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo apt install net-tools</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/3.png" width="500"/></p>
+<p>4.</p>
+<p><span>到 /etc/netplan檢查00-installer-config.yaml 檔案內的設定</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_944640">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">cd /etc/netplan</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">sudo vi 00-installer-config.yaml</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/12.png" width="500"/></p>
+<p>5.</p>
+<p><span>將00-installer-config.yaml</span>設定改為這樣</p>
+<p><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/6.png" width="500"/></p>
+<p>編輯完成後按insert退出編輯&gt;esc&gt;:wq<span>跳出編輯並儲存，並更新netplan設定</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_27215">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo netplan apply</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>6.</p>
+<p><span>到 /etc/apt/apt.conf.d 目錄下檢查是否有proxy.conf檔案</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_621351">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">cd /etc/apt/apt.conf.d</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">sudo vi proxy.conf</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/13.png" width="500"/></p>
+<p>7.</p>
+<p><span>proxy.conf的檔案內容</span></p>
+<p><span>53為proxy的port號</span></p>
+<p><span><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/10.png" width="500"/></span></p>
+<p><span>新增完內容更新apt</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_146952">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo apt update</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>8.</p>
+<p>再試一次ifconfig尋找IPv6網路</p>
+<p>紅線為尋找的IPv6的位址</p>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/14.png" width="500"/></p>
+<p></p>
+<p><img caption="false" height="0" src="https://s40723111.github.io/cd2020/images/2.png" width="500"/></p>

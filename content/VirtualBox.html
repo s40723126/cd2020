@@ -154,13 +154,150 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Week12 << <a href='Week12.html'>Previous</a> <a href='小組會議.html'>Next</a> >> 小組會議<br /><h1>Week13</h1>
-<p>用Onshape繪製輪胎皮</p>
-<p>網址:</p>
-<p><a href="https://cad.onshape.com/documents/631340e74e6be09636ce6638/w/5de772e304b3a44bb6babf30/e/d32210c491a00ef63329a42a">https://cad.onshape.com/documents/631340e74e6be09636ce6638/w/5de772e304b3a44bb6babf30/e/d32210c491a00ef63329a42a</a></p>
-<p><img alt="" height="634" src="./../images/0.png" width="701"/></p>
-<p><img alt="" height="630" src="./../images/222.png" width="652"/></p>
-<br />Week12 << <a href='Week12.html'>Previous</a> <a href='小組會議.html'>Next</a> >> 小組會議</div>
+    <div id="tipue_search_content">翻譯 << <a href='翻譯.html'>Previous</a> <br /><h1>VirtualBox</h1>
+<h4>(IPv6) Setting VirtualBox Network</h4>
+<p>1.</p>
+<p>設定調成NAT Network</p>
+<p><img alt="" height="335" src="https://s40723111.github.io/cd2020/images/1.png" width="500"/></p>
+<p>2.</p>
+<p>打這個指令尋找IPv6網路(找不到的話繼續下面的步驟)</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_808012">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">ifconfig</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/2.png" width="500"/></p>
+<p>3.</p>
+<p>安裝網路工具，密碼為kmol2020</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_552624">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo apt install net-tools</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/3.png" width="500"/></p>
+<p>4.</p>
+<p><span>到 /etc/netplan檢查00-installer-config.yaml 檔案內的設定</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_944640">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">cd /etc/netplan</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">sudo vi 00-installer-config.yaml</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/12.png" width="500"/></p>
+<p>5.</p>
+<p><span>將00-installer-config.yaml</span>設定改為這樣</p>
+<p><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/6.png" width="500"/></p>
+<p>編輯完成後按insert退出編輯&gt;esc&gt;:wq<span>跳出編輯並儲存，並更新netplan設定</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_27215">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo netplan apply</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>6.</p>
+<p><span>到 /etc/apt/apt.conf.d 目錄下檢查是否有proxy.conf檔案</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_621351">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">cd /etc/apt/apt.conf.d</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">sudo vi proxy.conf</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/13.png" width="500"/></p>
+<p>7.</p>
+<p><span>proxy.conf的檔案內容</span></p>
+<p><span>53為proxy的port號</span></p>
+<p><span><img alt="" height="325" src="https://s40723111.github.io/cd2020/images/10.png" width="500"/></span></p>
+<p><span>新增完內容更新apt</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_146952">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">sudo apt update</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>8.</p>
+<p>再試一次ifconfig尋找IPv6網路</p>
+<p>紅線為尋找的IPv6的位址</p>
+<p><img alt="" height="326" src="https://s40723111.github.io/cd2020/images/14.png" width="500"/></p>
+<p></p>
+<p><img caption="false" height="0" src="https://s40723111.github.io/cd2020/images/2.png" width="500"/></p><br />翻譯 << <a href='翻譯.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
