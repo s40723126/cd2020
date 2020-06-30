@@ -248,9 +248,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200630205414.2"># Week 1
 
-創建cd2020(https://github.com/s40723126/cd2020)的倉儲
+創建[cd2020]的倉儲(https://github.com/s40723126/cd2020)
 
-創建網站(https://s40723126.github.io/cd2020/content/index.html)
+創建[網站](https://s40723126.github.io/cd2020/content/index.html)
 </t>
 </tnodes>
 </leo_file>
