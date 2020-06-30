@@ -22,11 +22,78 @@
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20200630205414.1"><vh>快捷鍵</vh>
 <v t="leo.20200630205414.2"><vh>投影片快捷鍵</vh></v>
-<v t="leo.20200630210502.1"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630214503.1"><vh>快捷鍵</vh>
+<v t="leo.20200630214503.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630215849.1"><vh>快捷鍵</vh>
+<v t="leo.20200630215849.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630220335.1"><vh>快捷鍵</vh>
+<v t="leo.20200630220335.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221456.1"><vh>快捷鍵</vh>
+<v t="leo.20200630221456.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221638.1"><vh>快捷鍵</vh>
+<v t="leo.20200630221638.2"><vh>投影片快捷鍵</vh></v>
+</v>
+</v>
+<v t="leo.20200630221854.1"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.2"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.3"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221854.4"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.5"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221854.6"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.7"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221854.8"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.9"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221854.10"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.11"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630221854.12"><vh>快捷鍵</vh>
+<v t="leo.20200630221854.13"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224439.1"><vh>快捷鍵</vh>
+<v t="leo.20200630224439.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224636.1"><vh>快捷鍵</vh>
+<v t="leo.20200630224636.2"><vh>投影片快捷鍵</vh></v>
+</v>
+</v>
+<v t="leo.20200630224836.1"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.2"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.3"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.4"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.5"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.6"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.7"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.8"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.9"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.10"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.11"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.12"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.13"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200630224836.14"><vh>快捷鍵</vh>
+<v t="leo.20200630224836.15"><vh>投影片快捷鍵</vh></v>
+</v>
+</v>
+<v t="leo.20200630230756.1"><vh>快捷鍵</vh>
+<v t="leo.20200630230756.2"><vh>快捷鍵</vh>
+<v t="leo.20200630230756.3"><vh>投影片快捷鍵</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -49,24 +116,12 @@ Created by [40723126](https://github.com/s40723126/cd2020)
 [Repository](https://github.com/s40723126/cd2020)
 
 </t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20180902120523.11">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -253,15 +308,327 @@ vertical: body pane on the botton</t>
 
 創建[網站](https://s40723126.github.io/cd2020/content/index.html)
 </t>
-<t tx="leo.20200630210502.1"># Week 3
+<t tx="leo.20200630214503.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-將python從3.7.3版本更新到3.8.2並安裝缺少的模組
 
-從(https://www.python.org/downloads/windows/) 這個網站中下載windows x86-64 executable installer安裝至自己的可攜中
+						
+</t>
+<t tx="leo.20200630214503.2"># Week 2
 
+將python從3.7.3版本更新到3.8.2
 
 
 
 </t>
+<t tx="leo.20200630215849.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630215849.2"># Week 4
+
+更新至python 3.8.2後,沒辦法打開Leo
+
+解決方法:
+
+1.打開start_mdecourse.bat
+
+2.進入SCiTE程式編輯器,點選Options後,點選Open python properties
+
+3.使用Ctrl+H,將py373更改為python38(看個人的python檔案名打什麼)
+
+4.之後將launchleo.pypy放到SCiTE後就能開啟leo
+
+
+</t>
+<t tx="leo.20200630220335.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630220335.2"># Week 6
+
+使用[Youtube](https://www.youtube.com/) &amp; [OBS Portable](https://portableapps.com/apps/music_video/obs-studio-portable) 進行直播串流
+
+&lt;img alt="" height="404" src="./../images/2020-04-29 (6).png" width="571"&gt;
+
+</t>
+<t tx="leo.20200630221456.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221456.2"># Week 7
+
+翻譯Machanical Design Process 1.2章節翻譯
+
+[連結](https://s40723126.github.io/cd2020/content/%E7%BF%BB%E8%AD%AF.html)</t>
+<t tx="leo.20200630221638.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221638.2"># Week 8
+
+準備期中考</t>
+<t tx="leo.20200630221854.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.11"># Week 13
+
+&lt;small&gt;用Onshape繪製[輪胎皮](https://cad.onshape.com/documents/631340e74e6be09636ce6638/w/5de772e304b3a44bb6babf30/e/d32210c491a00ef63329a42a) &lt;/small&gt;
+ &lt;img alt="" height="634" src="./../images/0.png" width="701"&gt;</t>
+<t tx="leo.20200630221854.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.13"># Week 14
+
+mini project (cdaw14-1)
+
+[倉儲](https://github.com/mdecourse/cdaw14-1) &amp; [網站](http://mde.tw/cdaw14-1/content/index.html)</t>
+<t tx="leo.20200630221854.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.3"># Week 9
+
+期末考周
+
+使用google meeting進行期中報告</t>
+<t tx="leo.20200630221854.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.5"># Week 10
+
+直播分配工作
+
+google API設立權限 
+
+
+
+</t>
+<t tx="leo.20200630221854.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.7"># Week 11
+
+&lt;small&gt;用Onshape繪製[輪框](https://cad.onshape.com/documents/ad12c3f2d195fcb853e024ef/w/feb2971ffd74f2fb21b3551c/e/4f4758f0b1b2b6db33b725a1) &lt;/small&gt;
+
+&lt;img alt="" height="600" src="./../images/123.png" width="600"&gt;</t>
+<t tx="leo.20200630221854.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630221854.9"># Week 12
+
+&lt;small&gt;討論內容:討論四輪車工作分配及線上課程操作說明&lt;/samll&gt;
+
+&lt;iframe width="1013" height="543" src="https://www.youtube.com/embed/eC1SUyP3b2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224439.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224439.2"># Week 15
+
+mini project (cdaw15-2)
+
+[倉儲](https://github.com/mdecourse/cdaw15-2) &amp; [網站](http://mde.tw/cdaw15-2/content/index.html)</t>
+<t tx="leo.20200630224636.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224636.2"># Week 16
+
+mini project (cdaw15-3)
+
+[倉儲](https://github.com/mdecourse/cdaw16-3) &amp; [網站](http://mde.tw/cdaw16-3/content/index.html)</t>
+<t tx="leo.20200630224836.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.11"># Week 12
+
+&lt;iframe width="965" height="543" src="https://www.youtube.com/embed/jE6L9Wpjmp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224836.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.13"># Week 13
+
+&lt;iframe width="965" height="543" src="https://www.youtube.com/embed/vRnkkEYdR2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224836.14">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.15"># Week 14
+ &lt;iframe width="965" height="543" src="https://www.youtube.com/embed/Fk_GcMIcRZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224836.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.3"># 開會紀錄
+
+Week3
+
+&lt;iframe width="965" height="543" src="https://www.youtube.com/embed/c06esX1zO90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224836.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.5"># Week 4
+
+&lt;iframe width="965" height="543" src="https://www.youtube.com/embed/lObYwRDd4Ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200630224836.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.7"># Week 7
+
+&lt;iframe width="1013" height="543" src="https://www.youtube.com/embed/eC1SUyP3b2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630224836.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630224836.9"># Week 11
+
+&lt;iframe width="965" height="543" src="https://www.youtube.com/embed/TaoQhydVuPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200630230756.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630230756.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200630230756.3"># VIRTUALBOX
+
+虛擬主機IPv6設定
+
+[步驟](https://s40723126.github.io/cd2020/content/VirtualBox.html)</t>
 </tnodes>
 </leo_file>
