@@ -26,7 +26,6 @@
 </v>
 <v t="leo.20200630205414.1"><vh>快捷鍵</vh>
 <v t="leo.20200630205414.2"><vh>投影片快捷鍵</vh></v>
-<v t="leo.20200630210350.1"><vh>投影片快捷鍵</vh></v>
 <v t="leo.20200630210502.1"><vh>投影片快捷鍵</vh></v>
 </v>
 </v>
@@ -253,12 +252,6 @@ vertical: body pane on the botton</t>
 創建[cd2020](https://github.com/s40723126/cd2020) 的倉儲
 
 創建[網站](https://s40723126.github.io/cd2020/content/index.html)
-</t>
-<t tx="leo.20200630210350.1"> Week 2
-
-將python從3.7.3版本更新到3.8.2並安裝缺少的模組
-
-
 </t>
 <t tx="leo.20200630210502.1"># Week 3
 
