@@ -44,6 +44,7 @@ Created by [40723126](https://github.com/s40723126/cd2020)
 &lt;/small&gt;
 
 [website](https://s40723126.github.io/cd2020/content/index.html)
+
 [Repository](https://github.com/s40723126/cd2020)
 
 </t>
@@ -245,15 +246,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200630205414.2"># 投影片快捷鍵
+<t tx="leo.20200630205414.2"># Week 1
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+創建cd2020(https://github.com/s40723126/cd2020)的倉儲
 
+創建網站(https://s40723126.github.io/cd2020/content/index.html)
 </t>
 </tnodes>
 </leo_file>
